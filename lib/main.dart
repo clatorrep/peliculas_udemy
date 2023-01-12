@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       initialRoute: 'home',
       routes: {
         'home': (context) => const HomeScreen(),
-        'detail': (context) => const DetailScreen()
+        'details': (context) => const DetailScreen()
       },
       theme: ThemeData.light().copyWith(
         appBarTheme: const AppBarTheme(
